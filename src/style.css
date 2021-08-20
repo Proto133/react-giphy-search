@@ -1,0 +1,52 @@
+h1,
+p {
+  text-align: center;
+  font-family: Lato;
+}
+
+.main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 90%;
+  margin: 5%;
+}
+
+.main h1 {
+  flex: 1 0 100%;
+}
+
+.displayGifs {
+  margin-top: 2rem;
+  flex: 1 0 100%;
+}
+
+.GIFList {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.gifCard img {
+  height: auto;
+}
+
+.gifCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+hr {
+  margin: 1rem 0;
+  flex: 1 0 100%;
+}
+
+.giphyIcon {
+  border-radius: 2rem;
+  margin: 1rem 60%;
+  flex: 0 0 20%;
+}
