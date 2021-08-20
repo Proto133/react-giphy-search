@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import GIFList from './components/GIFList';
-import antd from 'antd';
 import { Input, Divider } from 'antd';
 import './style.css';
 
@@ -40,7 +39,10 @@ export default function App() {
 
   return (
     <div className="main">
-      <img className="giphyIcon" src='https://is3-ssl.mzstatic.com/image/thumb/Purple115/v4/80/46/ab/8046abb1-4cbb-bd0b-d96d-5014e3f9a75f/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/230x0w.webp'/>
+      <img
+        className="giphyIcon"
+        src="https://is3-ssl.mzstatic.com/image/thumb/Purple115/v4/80/46/ab/8046abb1-4cbb-bd0b-d96d-5014e3f9a75f/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/230x0w.webp"
+      />
       <h1>Giphy Image Finder</h1>
       <Search
         placeholder="input search text"
